@@ -1,0 +1,24 @@
+{
+  "name": "test-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "create.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "mtest start",
+    "build": "mtest build"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "chalk": "^2.4.2",
+    "commander": "^3.0.0",
+    "download-git-repo": "^2.0.0",
+    "express": "^4.17.1",
+    "inquirer": "^7.0.0",
+    "vue": "^2.6.10",
+    "webpack": "4.0.1",
+    "webpack-dev-middleware": "^3.7.0"
+  }
+}
